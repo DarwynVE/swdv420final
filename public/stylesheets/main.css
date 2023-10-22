@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+    background-color: white;
+    margin: 0 0 0 0;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    text-align: center;
+    border-bottom: 2px solid #8295ff;
+    margin-bottom: 0px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    color: #8295ff;
+}
+.form-wrapper {
+    padding: 20px 0 20px 0;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px solid #8295ff;
+    background-color: #f3f8ff;
+}
+form input {
+    width: 200px;
+    height: 20px;
+    border: 2px solid #8295ff;
+    border-radius: 10px;
+}
+form label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: 2px solid #8295ff;
+    background-color: white;
+}
+form button:hover{
+    background-color: #8295ff;
+    transition: background-color 0.5s;
+}
+.sort-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    padding: 10px 10px 10px 10px;
+}
+select {
+    width: 100px;
+    border-radius: 15px;
+}
+#sort-button {
+    width: 50px;
+    border-radius: 15px;
+    background: white;
+}
+#sort-button:hover{
+    transition: background-color 0.5s;
+    background-color: #8295ff;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 0px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+}
+.list-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 2s;
+}
+ul#car-list ul{
+    background-color: lightgrey;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    width: 1300px;
+    filter: drop-shadow(1px 2px 20px grey);
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 25px;
+    transition: opacity 2s;
+}
