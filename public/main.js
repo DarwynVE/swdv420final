@@ -1,4 +1,4 @@
-// public/main.js
+
 document.addEventListener('DOMContentLoaded', () => {
     const carForm = document.getElementById('car-form');
     const carList = document.getElementById('car-list');
@@ -28,8 +28,6 @@ document.addEventListener('DOMContentLoaded', () => {
         carItem.appendChild(makeDiv);
         carItem.appendChild(modelDiv);
         carItem.appendChild(yearDiv);
-
-        carItem.style.opacity = 1;
         carList.appendChild(carItem);
 
         // Clear the form fields
